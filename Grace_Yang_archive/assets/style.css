@@ -1,0 +1,49 @@
+/* These styles are just to make it easier to see the blocks, initially. */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+	font-family: sans-sans-serif;
+	font-size: 20px;
+	padding: 100px;
+}
+
+h1 {
+	color: black;
+	font-weight: bolder;
+	font-size: 96px;
+	font-family: "Raleway", sans-serif;
+}
+
+h3 {
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 300%;
+	font-family: "Raleway", sans-serif;
+}
+h2{
+	font-size: 200%;
+	font-family: sans-serif;
+	font-style: oblique;
+	color: white;
+	background-color: red;
+	text-align: center;
+}
+a:hover {
+  color: red;
+}
+
+section,
+figure {
+	margin-top: 80px;
+	max-width: auto;
+}
+figcaption{font-family: sans-serif;}
+#channel-description > *,
+figure > *:not(:first-child),
+.description > *:not(:first-child),
+.content > *:not(:first-child) {
+	display: block;
+	margin-top: 1em;
+}
+
+/* Clear them out once you’ve got your channel plugged in! */
